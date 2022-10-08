@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (min-width:1400px) {
+    .container {
+        margin: 91px 124px 0px 124px;
+    }
+    .title h1 {
+        font-family: 'Roboto Slab';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 101.38%;
+        margin-bottom: 56px;
+    }
+    .txt1 {
+        width: 668px;
+        height: 392px;
+    }
+    .txt1 p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 150%;
+    }
+    .txt1 p:first-child {
+        margin-bottom: 36px;
+    }
+    .txt-img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .camera1 {
+        width: 366px;
+        height: 344px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .camera1 img:first-child {
+        width: 314px;
+        height: 315px;
+    }
+    .camera1 img:last-child {
+        width: 366px;
+        height: 59px;
+        position: relative;
+        bottom: 29px;
+        z-index: -1;
+    }
+    .txt-img2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 96px;
+        margin-right: 132px;
+    }
+    .camera2 {
+        width: 233px;
+        height: 219px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .camera2 img:first-child {
+        width: 232px;
+        height: 203px;
+    }
+    .camera2 img:last-child {
+        width: 189px;
+        height: 32px;
+        position: relative;
+        bottom: 16px;
+        z-index: -1;
+        left: 10px;
+    }
+    .txt2 p {
+        font-family: 'Roboto';
+    }
+    .txt2 p:first-child {
+        width: 150px;
+        height: 39px;
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .txt2 p:last-child {
+        width: 150px;
+        height: 39px;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+@media (min-width:830px) {}
+
+@media (min-width:375px) {}
